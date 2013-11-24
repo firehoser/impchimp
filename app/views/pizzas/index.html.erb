@@ -12,6 +12,10 @@
 			Lng: <%= pizza.lng %>
 		</h2>
 
+
+		<%= image_tag "http://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:#{pizza.name}%7C#{pizza.lat},#{pizza.lng}&sensor=false" %>
+
 		<br/>
 	</div>	
 
