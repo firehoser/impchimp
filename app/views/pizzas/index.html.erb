@@ -1,0 +1,18 @@
+
+
+<% @pizzas.each do |pizza| %>
+	<div class="stolen-frosty span6 offset3 text-center">
+		<h1 class="stolen-h1">
+			<%= pizza.name %>
+		</h1>
+		<h2>
+			Lat: <%= pizza.lat %>
+		</h2>
+		<h2>
+			Lng: <%= pizza.lng %>
+		</h2>
+
+		<br/>
+	</div>	
+
+<% end %>
